@@ -19,7 +19,7 @@ This reduces:
 ---
 
 ## 🔹 Workflow
-1. **Build network topology** from a dataset (e.g., [Topology Zoo](http://www.topology-zoo.org/)).
+1. **Build network topology** from a dataset (e.g., [Topology Zoo](https://github.com/afourmy/3D-internet-zoo/tree/master)).
 2. **Select sparse sensors** (edges/nodes) using either:
    - Topological QR-based pivoting, or  
    - Degree-based baseline.  
