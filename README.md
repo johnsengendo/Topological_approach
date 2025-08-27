@@ -39,6 +39,9 @@ This reduces:
 
 - **Signal Reconstruction performance**  
   ![reduction_dashboard](images/Figure_8.png)
+
+  - **Link Reduction Analysis**  
+  ![reduction_dashboard](images/Figure_1.png)
     
 
 These show how many links we can remove while still being able to reconstruct the overall network state.
