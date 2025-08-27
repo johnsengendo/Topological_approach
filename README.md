@@ -34,11 +34,11 @@ This reduces:
 
 ## 🔹 Example Results
 - **Full Topology vs. Sampled Topology**  
-  ![full_topology](images/Figure4.png)  
-  ![sampled_topology_topological](images/Figure5.png)  
+  ![full_topology](images/Figure_4.png)  
+  ![sampled_topology_topological](images/Figure_5.png)  
 
 - **Signal Reconstruction performance**  
-  ![reduction_dashboard](images/Figure8.png)
+  ![reduction_dashboard](images/Figure_8.png)
     
 
 These show how many links we can remove while still being able to reconstruct the overall network state.
