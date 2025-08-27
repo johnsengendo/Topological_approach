@@ -42,10 +42,6 @@ This reduces:
 
   - **Link Reduction Analysis**  
   ![reduction_dashboard](images/Figure_1.png)
-    
-
-These show how many links we can remove while still being able to reconstruct the overall network state.
-
 ---
 
 ## 🔹 Features
