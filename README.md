@@ -40,7 +40,7 @@ This reduces:
 - **Signal Reconstruction performance**  
   ![reduction_dashboard](images/Figure_8.png)
 
-  - **Link Reduction Analysis**  
+- **Link Reduction Analysis**  
   ![reduction_dashboard](images/Figure_1.png)
 ---
 
