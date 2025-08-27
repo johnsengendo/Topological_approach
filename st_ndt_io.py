@@ -18,20 +18,20 @@ def load_topology_zoo_graph(name='Cogentco_clean'):
         if not isinstance(G_multi, nx.MultiGraph):
             G_multi = nx.MultiGraph(G_multi)
 
-        # Count duplicates
+        # Counting duplicates
         edge_list_multi = list(G_multi.edges())
         edge_set_simple = set(tuple(sorted(e)) for e in edge_list_multi)
         duplicates = len(edge_list_multi) - len(edge_set_simple)
         if duplicates > 0:
             print(f"⚠ Found {duplicates} duplicate edges in {name}.gml. Removing them...")
 
-        # Convert to simple Graph to remove duplicates
+        # Converting to simple Graph to remove duplicates
         G = nx.Graph(G_multi)
 
-        # Relabel nodes to integers
+        # Relabeling nodes to integers
         G = nx.convert_node_labels_to_integers(G, ordering='sorted')
 
-        # Keep largest connected component
+        # Keeping largest connected component
         if not nx.is_connected(G):
             print(f"⚠ {name} network has multiple components. Keeping the largest.")
             comp = max(nx.connected_components(G), key=len)
@@ -43,4 +43,5 @@ def load_topology_zoo_graph(name='Cogentco_clean'):
 
     except Exception as e:
         print(f"ERROR: Failed to load {name}.gml: {e}")
+
         return None
