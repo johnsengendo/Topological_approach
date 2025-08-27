@@ -1,6 +1,6 @@
 # Sparse Topological Digital Twin
 
-The project implements a **Sparse Topological Network Digital Twin (ST-NDT)** for communication networks.  
+This project implements a **Sparse Topological Network Digital Twin (ST-NDT)** for communication networks.  
 The goal is to reduce the amount of information that must be exchanged between the **physical network** and its **digital twin**, while still being able to reconstruct the full network state with good accuracy.
 
 ---
