@@ -61,9 +61,10 @@ These show how many links we can remove while still being able to reconstruct th
 ```bash
 git clone https://github.com/johnsengendo/Topological_approach.git
 
+```
+
 ## Project Structure
 
-```
 ├── Cogentco.gml # Raw Cogentco topology (Topology Zoo)
 ├── Cogentco_clean.gml # Cleaned version of the Cogentco topology (removed duplicates)
 ├── README.md # Project documentation
