@@ -11,10 +11,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import networkx as nx
 
-# Importing specific functions from SciPy for linear algebra operations
-from matplotlib.patches import FancyBboxPatch
-import matplotlib.patches as mpatches
-
 # Importing custom modules for ST-NDT functionality
 from st_ndt_plots import *
 from st_ndt_io import *
