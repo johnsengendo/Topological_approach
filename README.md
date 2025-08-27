@@ -60,7 +60,7 @@ git clone https://github.com/johnsengendo/Topological_approach.git
 ```
 
 ## Project Structure
-
+```
 ├── Cogentco.gml # Raw Cogentco topology (Topology Zoo)
 ├── Cogentco_clean.gml # Cleaned version of the Cogentco topology (removed duplicates)
 ├── README.md # Project documentation
@@ -68,3 +68,4 @@ git clone https://github.com/johnsengendo/Topological_approach.git
 ├── st_ndt_core.py # Core functions (topology, Hodge, reconstruction)
 ├── st_ndt_io.py # Input/output utilities (loading graphs, datasets)
 └── st_ndt_plots.py # Visualization and plotting functions
+```
